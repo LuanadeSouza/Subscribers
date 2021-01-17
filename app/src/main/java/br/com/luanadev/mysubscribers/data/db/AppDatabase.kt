@@ -8,7 +8,7 @@ import br.com.luanadev.mysubscribers.data.db.dao.SubscriberDao
 import br.com.luanadev.mysubscribers.data.db.entity.SubscriberEntiy
 
 @Database(entities = [SubscriberEntiy::class], version = 1)
-abstract class AppDatabase: RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
 
     abstract val subscriberDao: SubscriberDao
 
@@ -30,5 +30,4 @@ abstract class AppDatabase: RoomDatabase() {
             }
         }
     }
-
 }

@@ -9,7 +9,6 @@ import br.com.luanadev.mysubscribers.data.db.entity.SubscriberEntiy
 
 @Dao
 interface SubscriberDao {
-
     @Insert
     suspend fun insert(subscriber: SubscriberEntiy): Long
 
@@ -24,6 +23,4 @@ interface SubscriberDao {
 
     @Query("SELECT * FROM subscriber")
     fun getAll():LiveData<List<SubscriberEntiy>>
-
-
 }

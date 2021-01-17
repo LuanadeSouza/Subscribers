@@ -2,10 +2,10 @@
     <string name="app_name">Subscribers</string>
 
     <!-- SubscriberFragment-->
-    <string name="subscribers_name">Subscriber´s name</string>
+    <string name="subscribers_name">Subscriber`s name</string>
     <string name="email">E-mail</string>
     <string name="add">ADD</string>
     <string name="subscriber_title">Subscriber</string>
-
-
+    <string name="subscriber_inserted_successfully">Subscriber was successfully inserted</string>
+    <string name="subscriber_error_to_insert">There was an error when inserting Subscriber</string>
 </resources>
