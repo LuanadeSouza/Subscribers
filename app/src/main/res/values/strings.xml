@@ -8,4 +8,6 @@
     <string name="subscriber_title">Subscriber</string>
     <string name="subscriber_inserted_successfully">Subscriber was successfully inserted</string>
     <string name="subscriber_error_to_insert">There was an error when inserting Subscriber</string>
+    <string name="nome_usuario">Luana Souza</string>
+    <string name="email_usuario">luana@teste.com</string>
 </resources>
